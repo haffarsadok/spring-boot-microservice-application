@@ -236,19 +236,6 @@ Each microservice can be configured through `application.yml` or `application.pr
 - **Ports**: Each service runs on different ports to avoid conflicts
 - **Profiles**: Different profiles for dev, test, and production environments
 
-## 🧪 Testing
-
-Run tests for individual services:
-```bash
-# Test Patient Service
-cd patient-service
-mvn test
-
-# Test Med Service
-cd med-service
-mvn test
-```
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -276,3 +263,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ⭐ If you found this project helpful, please give it a star!
+
